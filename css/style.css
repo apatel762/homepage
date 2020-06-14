@@ -3,6 +3,14 @@
     src: url("../fonts/Roboto-Light.ttf") format("truetype");
 }
 
+img {
+    border: 2px solid #313131;
+    height: auto;
+    object-fit: cover;
+    object-position: 50% 100%;
+    width: 8em;
+}
+
 /* center alignment on all HTML */
 html {
     align-items: center;
