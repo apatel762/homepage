@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+    homepage:
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        image: homepage:1
+        container_name: homepage
+        ports:
+            - 80:80
+        restart: unless-stopped
