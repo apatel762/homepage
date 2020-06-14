@@ -54,6 +54,16 @@ nav {
     padding: 1em 0;
 }
 
+nav form {
+    grid-column: 1 / span 2;
+    width: 100%;
+}
+
+nav form input {
+    width: 97%;
+    justify-content: center;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
