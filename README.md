@@ -28,9 +28,6 @@ cd /path/to/this/repo/
 sudo docker-compose up -d
 
 # stop and remove homepage service
-sudo docker-compose down --remove-orphans
-
-# there's probably a less nuclear way of doing this but ¯\_(ツ)_/¯
-sudo docker system prune
+sudo docker-compose down --rmi all --remove-orphans
 ```
 the above commands will run the service using the provided `docker-compose.yml`.
