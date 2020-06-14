@@ -3,11 +3,6 @@
     src: url("../fonts/Roboto-Light.ttf") format("truetype");
 }
 
-@font-face {
-    font-family: "Roboto";
-    src: url("../fonts/Roboto-Medium.ttf") format("truetype");
-}
-
 /* center alignment on all HTML */
 html {
     align-items: center;
