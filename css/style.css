@@ -55,18 +55,34 @@ nav {
 }
 
 nav form {
-    grid-column: 1 / span 2;
     width: 100%;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+    margin-right: 2em;
 }
 
 nav form input {
     height: 30px;
-    width: 93%;
-    justify-content: center;
+    width: 172%;
     border-radius: 2em;
     padding: 0 1em;
     display: inline-block;
     margin: 0 auto;
+    font: 14px "Roboto-Light";
+}
+
+.logo {
+    height: 30px; /* same as search bar */
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    opacity: 0.9;
 }
 
 ul {
