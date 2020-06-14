@@ -39,7 +39,7 @@ html {
     justify-content: center;
     margin: 0;
     font: 22px "Roboto-Light";
-    text-shadow: 2px 2px 5px var(--nord1);
+    text-shadow: 1px 1px 5px var(--nord1);
 }
 
 body {
