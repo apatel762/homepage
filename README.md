@@ -29,5 +29,8 @@ sudo docker-compose up -d
 
 # stop and remove homepage service
 sudo docker-compose down --remove-orphans
+
+# there's probably a less nuclear way of doing this but ¯\_(ツ)_/¯
+sudo docker system prune
 ```
 the above commands will run the service using the provided `docker-compose.yml`.
