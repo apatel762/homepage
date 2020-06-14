@@ -60,8 +60,13 @@ nav form {
 }
 
 nav form input {
-    width: 97%;
+    height: 30px;
+    width: 93%;
     justify-content: center;
+    border-radius: 2em;
+    padding: 0 1em;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 ul {
