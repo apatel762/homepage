@@ -1,6 +1,8 @@
 # homepage
 A simple static homepage for my server
 
+![screenshot of webpage](screenshot-2020-06-14.png?raw=true)
+
 ## running the docker container
 rough instructions for using the Dockerfile in this repo:
 ```Bash
