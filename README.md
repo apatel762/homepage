@@ -18,3 +18,16 @@ sudo docker stop [container-id]
 sudo docker rm [container-id]
 ```
 and now you should be back to a clean slate
+
+### docker compose
+I'm more comfortable using docker compose, so here's how you run this with that:
+```Bash
+cd /path/to/this/repo/
+
+# run homepage service
+sudo docker-compose up -d
+
+# stop and remove homepage service
+sudo docker-compose down --remove-orphans
+```
+the above commands will run the service using the provided `docker-compose.yml`.
