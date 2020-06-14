@@ -8,21 +8,26 @@
     <body>
         <nav>
             <h1>Home</h1>
+            <!-- can also use action="https://www.google.com/search" for google -->
+            <form method="GET" action="https://duckduckgo.com/">
+                <input type="text" name="q" placeholder="Search DuckDuckGo" autofocus>
+            </form>
+            <img class="logo" src="images/duck.svg">
             <ul>
-                <li>General</li>
-                <li><a href="https://start.duckduckgo.com/">Search</a></li>
-                <li><a href="https://github.com/apatel762/">Github</a></li>
-                <li><a href="https://news.ycombinator.com/">Hacker News</a></li>
-                <li><a href="https://www.cloudflare.com/ips-v4">Cloudflare IPs</a></li>
+                <li class="text-left">General</li>
+                <li class="text-left"><a href="https://start.duckduckgo.com/">Search</a></li>
+                <li class="text-left"><a href="https://github.com/apatel762/">Github</a></li>
+                <li class="text-left"><a href="https://news.ycombinator.com/">Hacker News</a></li>
+                <li class="text-left"><a href="https://www.cloudflare.com/ips-v4">Cloudflare IPs</a></li>
             </ul>
             <ul>
-                <li>Random</li>
-                <li>sjngkjsngln</li>
-                <li>sjngkdjbfskjbfs</li>
-                <li>kldahflkajf</li>
-                <li>fijsohjosrho</li>
+                <li class="text-right">Random</li>
+                <li class="text-right">sjngkjsngln</li>
+                <li class="text-right">sjngkdjbfskjbfs</li>
+                <li class="text-right">kldahflkajf</li>
+                <li class="text-right">fijsohjosrho</li>
             </ul>
         </nav>
-        <img src="images/bg.jpg">
+        <img class="strip" src="images/bg.jpg">
     </body>
 </html>
