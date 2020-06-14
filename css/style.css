@@ -1,0 +1,8 @@
+/* center alignment on all HTML */
+html {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin: 0;
+}
